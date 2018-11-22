@@ -1,0 +1,29 @@
+{
+    "name": "skywalker/scanner",
+    "description": "scan urls from scv",
+    "type": "test-module",
+    "homepage": "https://github.com/anokhinoleg",
+    "keywords": ["scan", "csv"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleg Anokhin",
+            "homepage": "https://github.com/anokhinoleg",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
+    },
+    "suggest": {
+        "league/csv": "^9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Skywalker\\Scanner\\" : "src/"
+        }
+    }
+}
